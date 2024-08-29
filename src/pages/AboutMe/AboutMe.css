@@ -1,0 +1,103 @@
+/* src/pages/AboutMe/AboutMe.css */
+
+.about-me-container {
+    display: flex;
+    justify-content: space-between;
+    /* Space between the two sections */
+    align-items: flex-start;
+    /* Align items to the top */
+    max-width: 1500px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: #0A0A19;
+    /* Black background */
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-me-left {
+    flex: 1;
+    /* Take up one part of the container */
+    margin-right: 150px;
+    margin-top: -100px;
+    /* Add space between the left and right sections */
+}
+
+.about-me-right {
+    flex: 1;
+    margin-left: -100px;
+    margin-top: -100px;
+    /* Take up one part of the container */
+}
+
+.about-me-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #E31B6D;
+}
+
+.about-me-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    /* Add space between paragraphs */
+}
+
+.Collapsible {
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.Collapsible__trigger {
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #222;
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+}
+
+.Collapsible__trigger::after {
+    content: "▼";
+    /* Add a down arrow icon */
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.Collapsible__trigger.is-open::after {
+    transform: rotate(-180deg);
+    /* Rotate arrow when open */
+}
+
+.Collapsible__trigger:hover {
+    background-color: #333;
+    color: #E31B6D;
+    /* Change text color on hover */
+}
+
+.collapsible-content {
+    padding: 15px;
+    background-color: #333;
+    border-radius: 0 0 10px 10px;
+    margin-top: 0;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.collapsible-content p,
+.collapsible-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.collapsible-content ul li {
+    margin: 5px 0;
+}

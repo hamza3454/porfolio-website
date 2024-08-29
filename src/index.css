@@ -1,7 +1,39 @@
+/* Reset default margins, paddings, and ensure box-sizing includes padding and border in element size */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.App-main {
+  flex: 1;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  /* Prevent any overflow */
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
   font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 20px;
 }
 
 .App-header {
@@ -17,6 +49,7 @@
 nav ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 nav ul li {
@@ -44,4 +77,18 @@ nav ul li a {
   position: fixed;
   bottom: 0;
   width: 100%;
+  margin: 0;
+  /* Ensure no extra margin */
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #333;
+  padding: 20px;
+  margin: 0;
 }

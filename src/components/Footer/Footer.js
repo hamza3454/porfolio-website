@@ -15,6 +15,9 @@ const Footer = () => {
                 <a href="mailto:hamzam3454@gmail.com" className="Footer-icon">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail" />
                 </a>
+                <a href="https://github.com/hamza3454" className="Footer-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Github" />
+                </a>
             </div>
         </footer>
     );
