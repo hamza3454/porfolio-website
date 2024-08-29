@@ -7,7 +7,7 @@ import Home from './pages/Hero/Hero';
 import AboutMe from './pages/AboutMe/AboutMe';
 import Experience from './pages/Experience/Experience';
 import Projects from './pages/Projects/Projects';
-import Footer from './components/Footer/Footer'; // Import Footer
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
             <Route path="/projects" element={<Projects />} />
           </Routes>
         </main>
-        <Footer /> {/* Add Footer */}
+        <Footer /> { }
       </div>
     </Router>
   );
