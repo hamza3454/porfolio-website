@@ -1,0 +1,74 @@
+.project-card {
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 270px;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project-title {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.project-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #2e4de6;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.project-languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.skill-chip {
+    background: linear-gradient(135deg, #00bfff, #7d0ec2);
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.skill-chip:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.project-links {
+    margin-top: 10px;
+}
+
+.project-links a {
+    color: #00bfff;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 10px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.project-links a:hover {
+    color: #581fd1;
+}

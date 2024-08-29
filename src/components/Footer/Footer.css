@@ -2,12 +2,11 @@
     background-color: #eeebee;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
     margin: 0;
-    /* Ensure no extra margin */
     box-sizing: border-box;
 }
 

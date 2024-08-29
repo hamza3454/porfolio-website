@@ -19,7 +19,7 @@ function Hero() {
                 </div>
             </div>
             <div className="hero-image">
-                <img src={process.env.PUBLIC_URL + '/images/soccer_pic.jpg'} alt="Hamza Memon" />
+                <img src={process.env.PUBLIC_URL + '/images/IMG_7374.jpg'} alt="Hamza Memon" />
             </div>
         </section>
     );

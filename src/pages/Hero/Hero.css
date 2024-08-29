@@ -4,22 +4,17 @@
     justify-content: space-between;
     padding: 0 100px;
     height: 100vh;
-    /* Ensure the hero section covers the full viewport height */
     background-color: #0A0A19;
-    /* Dark background color */
     color: white;
     box-sizing: border-box;
-    /* Include padding in height calculation */
     margin: 0;
 }
 
 .hero-content {
     max-width: 50%;
     text-align: left;
-    /* Align text to the left */
     margin-left: 450px;
     margin-top: -100px;
-    /* Add some margin to the left for better spacing */
 }
 
 .hero-content h1 {
@@ -31,40 +26,30 @@
     font-size: 3rem;
     margin-bottom: 15px;
     color: white;
-    /* Set color of "I'M" to white */
 }
 
 .typewriter-container {
     font-size: 1.5rem;
-    color: #E31B6D;
-    /* Color for dynamic text */
+    color: #2e4de6;
 }
 
 .highlight {
-    color: #E31B6D;
-    /* Highlight color for your name */
+    color: #2e4de6;
 }
 
 .hero-image {
     max-width: 350px;
-    /* Set the maximum width of the image */
     margin-left: -200px;
     margin-top: -100px;
     border-radius: 20%;
-    /* Make the image circular */
     overflow: hidden;
-    /* Ensure that the circular shape is maintained */
     position: relative;
     left: -1100px;
-    /* Move the image slightly to the left */
 }
 
 .hero-image img {
     width: 100%;
-    /* Ensure the image fits within the container */
     height: auto;
-    border-radius: 25%;
-    /* Make the image itself circular */
+    border-radius: 5%;
     object-fit: cover;
-    /* Maintain aspect ratio while filling the container */
 }

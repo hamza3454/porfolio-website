@@ -1,8 +1,7 @@
-/* src/components/Navbar/Navbar.css */
 .Navbar {
-    background-color: #484848;
+    background-color: #333;
     color: white;
-    padding: 10px 0;
+    padding: 15px 0;
     position: sticky;
     top: 0;
     width: 100%;
@@ -11,7 +10,7 @@
 
 .Navbar-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -32,6 +31,7 @@
 
 .Navbar-links li {
     margin: 0 15px;
+    position: relative;
 }
 
 .Navbar-links a {
@@ -39,8 +39,24 @@
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s;
+    position: relative;
+}
+
+.Navbar-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #2e4de6;
+    bottom: -4px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.Navbar-links a:hover::after {
+    width: 100%;
 }
 
 .Navbar-links a:hover {
-    color: #61dafb;
+    color: #2e4de6;
 }

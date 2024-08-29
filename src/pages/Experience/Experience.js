@@ -28,7 +28,7 @@ function Experience() {
 
                     <p className="date">May 2024 - August 2024</p>
                 </div>
-                {/* Add more job squares as needed */}
+                {/* Space for more jobs... */}
             </div>
         </div>
     );
